@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Engineer in Informatics Science with 6 years + of experience in software development. Dominion of various programming
+    languages, frameworks, CMS and graphics engines. Experience in WEB design and development. Work with Data Base handled
+    systems, as well as design, normalization and migration. Knowledge of work with graphic design tools for image
+    manipulation , User Interfaces design, Web sites, logos and other ones.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Technical Support Agent Technician"
+      subtitle="January 2020 to June 2021 at INADEH"
+    />
+    <TimeLineElement
+      title="Bachelor of Software Development"
+      subtitle="2019 to Present at Universidad Tecnológica de Panamá"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Software Developer"
+      subtitle="From 2015 at XETID, Habana, Cuba"
+      desc="Creation of API Rest in Spring Boot. Internal services integration with IBM Integration Bus v10. Database administration with Sybase MySQL. Migration of internal services to IBM DataPower. Groovy management for the creation of new batch processes. Connection with third-party services for banking. Code review from teammates. Update and improvements to existing codes. Application of agile methodologies under the SCRUM framework. Creation of microservices in Spring Boot."
+    />
+    <TimeLineElement
+      title="Software Developer"
+      subtitle="From August 2022 - December 2022 at STH, Panamá"
+      desc="Creation of functionalities using PHP for a SASS application. Application of visual improvements to the platform. Resolution of existing bugs. Deployment of application in Hostinger. Database maintenance in MariaDB."
+    />
+    <TimeLineElement
+      title="Software Analyst"
+      subtitle="From October 2021 to July 2022 at iMedica, Panamá"
+      desc="Creation of the architecture in AWS for the visualization platform. Support the development team for problem solving. Definition of technical stories of the project. Creating interfaces using Angular. Implementation of Google Authenticator and Google Cloud Platform."
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.efset.org/cert/eTVHYU" target="_blank"> EF SET English Certificate 59/100 (B2 Upper Intermediate)</a>
+    </li>
+    <li>
+      <a href="https://www.udemy.com/certificate/UC-83b9f872-7877-48bc-9c17-12840962d30f/" target="_blank">Administración de IBM DataPower Gateway versión 7.6</a>
+    </li>
+    <li>
+      <a href="https://www.udemy.com/certificate/UC-1ed8e397-d1dd-4fed-acf2-a8d4838e58f9/" target="_blank">IBM DataPower Development - Basics</a>
+    </li>
+    <li>
+      <a href="https://www.udemy.com/certificate/UC-da64210d-82b6-4fd4-8248-9e6d5ffd1210/" target="_blank">IBM Integration Bus v10</a>
+    </li>
+    <li>
+      <a href="https://www.udemy.com/certificate/UC-83b9f872-7877-48bc-9c17-12840962d30f/" target="_blank"> Administración de IBM DataPower Gateway versión 7.6</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Spanish (Native)</li>
+    <li>English (B2)</li>
+    <li>Sybase</li>
+    <li>MySQL</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>Node.js</li>
+    <li>Git</li>
+    <li>AWS</li>
+    <li>GCP(Google Cloud Platform)</li>
+    <li>Java</li>
+    <li>Springboot</li>
+    <li>Python</li>
+    <li>Fastapi</li>
+
+  </ul>
+</BaseLayout>
