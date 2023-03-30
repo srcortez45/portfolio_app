@@ -7,7 +7,7 @@ import vercel from '@astrojs/vercel/static';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  site: 'https://portfolioapp-srcortez45.vercel.app/',
+  site: 'https://portfolioapp-psi.vercel.app',
   adapter: vercel(),
   integrations: [mdx(), sitemap(), tailwind()]
 });
